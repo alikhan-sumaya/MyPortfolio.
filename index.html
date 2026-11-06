@@ -1,0 +1,429 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AliKhan | Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- NAVIGATION BAR -->
+<header>
+    <nav class="navbar">
+
+        <h2 class="logo">alikhan-sumaya<span>.</span></h2>
+
+        <button class="menu-btn" onclick="toggleMenu()">☰</button>
+
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+    </nav>
+</header>
+
+
+<!-- HOME SECTION -->
+<section id="home" class="hero">
+
+    <div class="hero-content">
+
+        <p class="tagline">WELCOME TO MY PORTFOLIO</p>
+
+        <!-- 🔴 EDIT YOUR NAME HERE -->
+        <h1>Hello, I'm <span>AliKhan Sumaya</span></h1>
+
+        <h2>Software Developer</h2>
+
+        <p>
+            I am a passionate software developer interested in
+            Python, Java, Web Development and Game Development.
+            I enjoy building applications, solving problems
+            and learning new technologies.
+        </p>
+
+        <div class="buttons">
+
+            <a href="#projects" class="btn">View Projects</a>
+
+            <a href="#contact" class="btn outline">Contact Me</a>
+
+        </div>
+
+        <div class="social-links">
+
+            <!-- 🔴 EDIT YOUR GITHUB PROFILE LINK -->
+            <a href="https://github.com/alikhan-sumaya"
+               target="_blank">
+                GitHub
+            </a>
+
+            <!-- 🔴 EDIT YOUR LINKEDIN PROFILE LINK -->
+            <a href="https://www.linkedin.com/in/alikhan-sumaya-306a9629b/"
+               target="_blank">
+                LinkedIn
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ABOUT SECTION -->
+<section id="about" class="section">
+
+    <h2 class="section-title">
+        About <span>Me</span>
+    </h2>
+
+    <div class="about-card">
+
+        <h3>Who Am I?</h3>
+
+        <p>
+            I am a Computer Science graduate with a strong interest in software development and game development. I have hands-on experience through academic and personal projects using Python, Java, C#, SQL, HTML, CSS, and JavaScript.
+        </p>
+
+        <p>
+            I have developed projects involving web applications, backend development, database management, and Unity game development. I enjoy solving problems, writing clean and efficient code, and learning new technologies.</p>
+
+        <p>
+
+        I am a quick learner, adaptable, and passionate about building practical solutions. I am seeking an opportunity to apply my technical skills, contribute to a development team, and grow as a software developer.
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- SKILLS SECTION -->
+<section id="skills" class="section">
+
+    <h2 class="section-title">
+        My <span>Skills</span>
+    </h2>
+
+    <div class="skills-container">
+
+        <div class="skill">Python</div>
+        <div class="skill">Java</div>
+        <div class="skill">C#</div>
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">Flask</div>
+        <div class="skill">Spring Boot</div>
+        <div class="skill">SQL</div>
+        <div class="skill">SQLite</div>
+        <div class="skill">Unity</div>
+        <div class="skill">Git & GitHub</div>
+
+    </div>
+
+</section>
+
+
+<!-- PROJECTS SECTION -->
+<section id="projects" class="section">
+
+    <h2 class="section-title">
+        My <span>Projects</span>
+    </h2>
+
+    <div class="projects-container">
+
+
+        <!-- PROJECT 1 -->
+        <div class="project-card">
+
+            <h3>
+                Online Assignment Submission Portal
+                with Plagiarism Checker
+            </h3>
+
+            <p>
+                Developed a web-based assignment submission
+                platform where teachers can upload assignments
+                and students can submit their answers online.
+                Integrated a plagiarism checker using text
+                similarity analysis to identify potentially
+                copied submissions.
+            </p>
+
+            <p class="tech">
+                Python | Flask | SQLite | HTML | CSS
+            </p>
+
+            <!-- 🔴 EDIT YOUR PROJECT 1 GITHUB LINK -->
+            <a href="https://github.com/alikhan-sumaya/Online-Assignment-Portal-Major-project"
+               target="_blank">
+                View Project →
+            </a>
+
+        </div>
+
+
+        <!-- PROJECT 2 -->
+        <div class="project-card">
+
+            <h3>Collaborative Code Editor</h3>
+
+            <p>
+                Developed a collaborative code editor that
+                allows users to write, edit and share code
+                in an interactive coding environment.
+            </p>
+
+            <p class="tech">
+                Java | Spring Boot | HTML | CSS | JavaScript
+            </p>
+
+            <!-- 🔴 EDIT YOUR PROJECT 2 GITHUB LINK -->
+            <a href="https://github.com/alikhan-sumaya/codecomment-generator"
+               target="_blank">
+                View Project →
+            </a>
+
+        </div>
+
+
+        <!-- PROJECT 3 -->
+        <div class="project-card">
+
+            <h3>
+                Word Guessing Arena – Multiplayer Game
+            </h3>
+
+            <p>
+                Developed an online multiplayer word guessing
+                game where players join rooms using a unique
+                room code. Players guess letters or complete
+                words using clues within a 60-second timer
+                and earn points for correct guesses.
+            </p>
+
+            <p class="tech">
+                JavaScript | Multiplayer Game Development
+            </p>
+
+            <!-- 🔴 EDIT YOUR PROJECT 3 GITHUB LINK -->
+            <a href="https://github.com/alikhan-sumaya/word-guessing-game"
+               target="_blank">
+                View Project →
+            </a>
+
+        </div>
+
+
+        <!-- PROJECT 4 -->
+        <div class="project-card">
+
+            <h3>Roll-a-Ball</h3>
+
+            <p>
+                Built a physics-based ball navigation game
+                in Unity featuring obstacle handling,
+                collision detection and level interactions
+                using C#.
+            </p>
+
+            <p class="tech">
+                Unity | C# | Game Development
+            </p>
+
+            <!-- 🔴 EDIT YOUR PROJECT 4 GITHUB LINK -->
+            <a href="https://github.com/alikhan-sumaya/Roll-a-ball"
+               target="_blank">
+                View Project →
+            </a>
+
+        </div>
+
+
+        <!-- PROJECT 5 -->
+        <div class="project-card">
+
+            <h3>Spirit Fighter</h3>
+
+            <p>
+                Developed a 2D fighting game in Unity with
+                player movement, combat mechanics and a
+                scoring system using C#.
+            </p>
+
+            <p class="tech">
+                Unity | C# | 2D Game Development
+            </p>
+
+            <!-- 🔴 EDIT YOUR PROJECT 5 GITHUB LINK -->
+            <a href="https://github.com/alikhan-sumaya/Spirit-Fighter"
+               target="_blank">
+                View Project →
+            </a>
+
+        </div>
+
+
+    </div>
+    
+      
+<!-- PROJECT 6: EV CHARGING STATION OPTIMIZER -->
+<div class="project-card">
+
+    <h3>EV Charging Station Optimizer</h3>
+
+    <p>
+        Developed an Electric Vehicle Charging Station
+        Optimizer project focused on EV charging station
+        optimization.
+    </p>
+
+    <p class="tech">
+        Python | EV Charging Optimization
+    </p>
+
+    <a href="https://github.com/alikhan-sumaya/EV-Charging-Station-Optimizer1"
+       target="_blank">
+        View Project →
+    </a>
+
+</div>
+
+
+</section>
+
+
+<!-- EDUCATION SECTION -->
+<section id="education" class="section">
+
+    <h2 class="section-title">
+        My <span>Education</span>
+    </h2>
+
+    <div class="education-card">
+
+        <h3>Bachelor's Degree in Computer Science</h3>
+
+        <p>College: BITM</p>
+
+        <p>CGPA: 8.11</p>
+
+        <!-- 🔴 EDIT YOUR GRADUATION YEAR -->
+        <p>
+            Graduation Year:2026
+            <span style="color:#ff4d4f">
+                
+            </span>
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- RESUME SECTION -->
+<section id="resume" class="section">
+
+    <h2 class="section-title">
+        My <span>Resume</span>
+    </h2>
+
+    <p>
+        Download my resume to know more about my qualifications
+        and technical skills.
+    </p>
+
+    <!-- Put your resume.pdf in the same folder as index.html -->
+
+    <a href="Sumaya's resume1.docx.pdf" class="btn" download>
+        Download Resume
+    </a>
+
+</section>
+
+
+<!-- CONTACT SECTION -->
+<section id="contact" class="section">
+
+    <h2 class="section-title">
+        Contact <span>Me</span>
+    </h2>
+
+    <div class="contact-card">
+
+
+        <!-- 🔴 EDIT YOUR EMAIL ADDRESS HERE -->
+        <p>
+            Email:
+
+            <a href="mailto:alikhansumaya090@gmail.com">
+
+                <span style="color:#ff4d4f">
+                    alikhansumaya090@gmail.com
+                </span>
+
+            </a>
+        </p>
+
+
+        <!-- 🔴 EDIT YOUR GITHUB LINK HERE -->
+        <p>
+            GitHub:
+
+            <a href="https://github.com/alikhan-sumaya"
+               target="_blank">
+
+                "https://github.com/alikhan-sumaya"
+
+            </a>
+        </p>
+
+
+  
+        <p>
+            LinkedIn:
+
+            <a href="https://www.linkedin.com/in/alikhan-sumaya-306a9629b/"
+               target="_blank">
+
+                <span style="color:#ff4d4f">
+                    https://www.linkedin.com/in/alikhan-sumaya-306a9629b/
+                </span>
+
+            </a>
+        </p>
+
+
+    </div>
+
+</section>
+
+
+<!-- FOOTER -->
+<footer>
+
+    <p>
+        © 2026 Ali Khan | All Rights Reserved.
+    </p>
+
+</footer>
+
+
+<!-- JAVASCRIPT -->
+<script src="script.js"></script>
+
+</body>
+</html>
